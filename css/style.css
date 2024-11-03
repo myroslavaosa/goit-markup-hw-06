@@ -65,20 +65,20 @@ button {
 
 .container {
     padding: 0 16px;
-    width: 320px;
+    max-width: 320px;
     margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
     .container {
-    width: 768px;
+    max-width: 768px;
     }
 }
 
 @media screen and (min-width: 1158px) {
     .container {
     padding: 0 15px;
-    width: 1158px;
+    max-width: 1158px;
     }
 }
 
